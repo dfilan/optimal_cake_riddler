@@ -162,7 +162,7 @@ Now, if the hypothesis holds true for $h_{N-k+1}$, then
                                                                                            &= \left( h - \sum_{j=1}^{N-k}h_j \right)^2 \left( 1 - c_{k-1}^2 \right)\\
   h_{N-k} &= \frac{1 - (1-c_{k-1})^2}{3-(1-c_{k-1})^2}\left( 1 - \sum_{j=1}^{N-k-1}h_j \right)
 \end{align*}
-Therefore the hypothesis is true by induction, and the coefficients $c_k$ satisfy the recurrence relation $c_k = (1-(1-c_{k-1})^2)/(3-(1-c_{k-1})^2)$ with $c_0 = 1/3$. Solving this recurrence relation would yield the heights of all the layers, but I can't find a closed form solution. Nonetheless, it is simple to write a program that takes an $N$ and returns the heights of the layers and fraction of volume the cake takes up. TODO: do this.
+Therefore the hypothesis is true by induction, and the coefficients $c_k$ satisfy the recurrence relation $c_k = (1-(1-c_{k-1})^2)/(3-(1-c_{k-1})^2)$ with $c_0 = 1/3$. Solving this recurrence relation would yield the heights of all the layers, but I can't find a closed form solution. Nonetheless, it is simple to write a program that takes an $N$ and returns the heights of the layers and fraction of volume the cake takes up. TODO: do this in lovely Haskell.
 
 \end{document}
 %%% Local Variables:
