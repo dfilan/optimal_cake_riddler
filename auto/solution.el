@@ -18,5 +18,8 @@
    (LaTeX-add-labels
     "sec:main-problem"
     "sec:tl-dr"
-    "sec:proof")))
+    "sec:proof"
+    "eq:2"
+    "eq:3"
+    "eq:4")))
 
