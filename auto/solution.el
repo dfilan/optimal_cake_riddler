@@ -14,5 +14,9 @@
     "amsmath"
     "amsthm"
     "mathtools"
-    "pdfpages")))
+    "pdfpages")
+   (LaTeX-add-labels
+    "sec:main-problem"
+    "sec:tl-dr"
+    "sec:proof")))
 
