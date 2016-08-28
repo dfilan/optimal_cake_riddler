@@ -1,0 +1,5 @@
+-- functions that determine the optimal heights and proportion of cone volume
+-- for n layers
+
+recur   :: (Fractional a) => a -> a
+recur c = (1 - (1-c)^2)/(3-(1-c)^2)
